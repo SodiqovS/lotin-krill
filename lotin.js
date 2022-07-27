@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
-
+    // Lotin-Krill
     const Transliterator = lotinKirill.default;
     const transliterator = new Transliterator();
     
@@ -21,6 +21,7 @@ window.addEventListener('DOMContentLoaded', () => {
             text.textContent = latinText;
         })
     });
+
     
     
 
